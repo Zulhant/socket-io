@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Socket Io</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <style type="text/css">
+      /* #output {
+        font-color:green;
+      }, */
+      #navigasi {
+        height: 200px;
+        background-color:#f3f3f3;
+        padding:10px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="navigasi">
+      <p id="output"></p>
+      <p id="feedBack"></p>
+    </div>
+    <div class="message">
+      <input type="text" id="handle" placeholder="handle">
+      <input type="text" id="message" placeholder="input Pesan anda">
+      <button type="button" id="submit">SUBMIT</button>
+    </div>
+
+    <script src="/chat.js"></script>
+
+  </body>
+</html>
